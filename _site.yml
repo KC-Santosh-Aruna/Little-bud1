@@ -1,0 +1,46 @@
+name: "LBS"
+title: "Little Bud School"
+favicon: "skclogo.png"
+description: |
+  Little Bub School Website
+output_dir: "_site"
+navbar:
+  logo:
+      image: skclogo1.png
+  right:
+    - text: "About Us"
+      menu:
+        - text: "Mission"
+          href: Mission.html
+        - text: "Vision"
+          href: Vision.html
+        - text: "Why little Bud?"
+          href: Importance.html
+        - text: "Staff"
+          href: Staff.html
+        - text: "Management Comittee"
+          href: Mgt_Comittee.html
+    - text: "Study"
+      menu:
+        - text: "Co-Curricular"
+          href: Course.html
+        - text: "Extra-Curricular"
+          href: "ExtraCurricular.html"
+    - text: "Kinder Care"
+      href: KinderCare.html
+    - text: "Academic Calendar"
+      href: Academic_Calendendar.html
+    - text: "Contact"
+      href: Contact.html
+    - icon: fa fa-facebook
+      href: https://www.facebook.com/LittleBudSchool123
+    - icon: fa fa-instagram
+      href: https://www.instagram.com/?hl=en
+    - icon: fa fa-twitter
+      href: https://twitter.com/
+      
+
+
+output: distill::distill_article
+theme: "SKC_theme.css"
+
